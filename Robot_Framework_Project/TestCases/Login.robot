@@ -10,13 +10,8 @@ Resource    ../Resources/Keywords.robot
 Login With Valid Credentials
 
     Launch Browser
-
     Validate Login Page
-
     Login To Application    ${VALID_USERNAME}    ${VALID_PASSWORD}
-
     Verify Successful Login
-
     Set Test Message    Valid Login Successful
-
     Close Browser Session

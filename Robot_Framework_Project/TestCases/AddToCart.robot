@@ -10,19 +10,11 @@ Resource    ../Resources/Keywords.robot
 Add Product To Cart
 
     Launch Browser
-
     Validate Login Page
-
     Login To Application    ${VALID_USERNAME}    ${VALID_PASSWORD}
-
     Verify Successful Login
-
     Add Backpack To Cart
-
     Open Shopping Cart
-
     Verify Backpack In Cart
-
     Set Test Message    Product Added Successfully
-
     Close Browser Session

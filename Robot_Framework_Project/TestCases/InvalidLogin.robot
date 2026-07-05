@@ -10,13 +10,8 @@ Resource    ../Resources/Keywords.robot
 Login With Invalid Credentials
 
     Launch Browser
-
     Validate Login Page
-
     Login To Application    ${INVALID_USERNAME}    ${INVALID_PASSWORD}
-
     Verify Invalid Login
-
     Set Test Message    Invalid Login Verified
-
     Close Browser Session
